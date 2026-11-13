@@ -1,11 +1,119 @@
-<!DOCTYPE html>
-<html lang="fa" dir="rtl">
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>سلام دنیا!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Curriculum vitae of Abolfazl Ghorbani, computer science undergraduate at Sharif University of Technology.">
+  <meta name="color-scheme" content="light dark">
+  <title>Abolfazl Ghorbani · Curriculum vitae</title>
+  <script src="./theme.js"></script>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <h1>به وب‌سایت من در گیت‌هاب خوش آمدید!</h1>
-    <p>این سایت با GitHub Pages ساخته شده است.</p>
+  <div class="page">
+    <header class="masthead">
+      <p>Curriculum vitae</p>
+      <button class="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false" hidden>
+        <span class="theme-icon" aria-hidden="true"></span>
+        <span>Dark mode</span>
+      </button>
+    </header>
+
+    <main>
+      <div class="intro">
+        <div class="intro-copy">
+          <h1>Abolfazl <span>Ghorbani</span></h1>
+          <p class="intro-role">Computer Science undergraduate</p>
+          <p class="intro-location">Sharif University of Technology · Tehran, Iran</p>
+          <ul class="contact-links" aria-label="Contact and CV">
+            <li><a href="mailto:abolfazl.ghorbani86@sharif.edu">Email<span class="visually-hidden"> Abolfazl Ghorbani</span><span class="link-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="https://github.com/GhorbaniAbolfazl">GitHub<span class="link-arrow" aria-hidden="true">↗</span></a></li>
+            <li><a href="./assets/Abolfazl_Ghorbani_CV.pdf">CV (PDF)<span class="link-arrow" aria-hidden="true">↗</span></a></li>
+          </ul>
+        </div>
+        <div class="portrait-frame">
+          <img src="./assets/portrait.jpg" width="800" height="800" alt="">
+        </div>
+      </div>
+
+      <section class="cv-section" aria-labelledby="education">
+        <h2 id="education">Education</h2>
+        <div class="cv-content">
+          <div class="entry-heading">
+            <h3>Sharif University of Technology</h3>
+            <p class="entry-date">2025–Present</p>
+          </div>
+          <p class="entry-detail">B.Sc. in Computer Science</p>
+          <p class="education-gpa">Cumulative GPA: <strong>19.11/20</strong></p>
+          <p><strong>Selected coursework:</strong> Probability and Applications (19.8/20), Differential Equations (20/20), Foundations of Mathematics (19/20).</p>
+          <p><strong>In progress:</strong> Statistics and Applications, Linear Algebra I, Data Structures, Discrete Mathematics.</p>
+        </div>
+      </section>
+
+      <section class="cv-section" aria-labelledby="research">
+        <h2 id="research">Research interests</h2>
+        <div class="cv-content">
+          <p>Probability, statistical inference, and stochastic processes, with applications to machine learning and deep learning. Also interested in machine learning for education.</p>
+        </div>
+      </section>
+
+      <section class="cv-section" aria-labelledby="projects">
+        <h2 id="projects">Selected projects</h2>
+        <div class="cv-content">
+          <article class="entry">
+            <div class="entry-heading">
+              <h3>Statistical Analysis of Cognitive Scores and MRI Measurements</h3>
+              <p class="entry-date">Nov. 2026–Present</p>
+            </div>
+            <p class="entry-detail">Statistics course project · Python · Phase 1 of 5 completed</p>
+            <ul class="entry-list">
+              <li>Linked cognitive and MRI records for 1,237 participants in a subset of NACC data and calculated mean entorhinal cortical thickness across both hemispheres.</li>
+              <li>Flagged out-of-range and fractional MoCA scores and defined an integer-score subset for later sensitivity analysis.</li>
+              <li>Documented data limitations and produced descriptive statistics, four figures, and a reproducible notebook.</li>
+            </ul>
+            <a class="project-link" href="https://github.com/GhorbaniAbolfazl/StatisticsPhase1">Project on GitHub<span class="link-arrow" aria-hidden="true">↗</span></a>
+          </article>
+          <article class="entry">
+            <div class="entry-heading">
+              <h3>Civilization-Style Multiplayer Strategy Game</h3>
+              <p class="entry-date">Apr.–Sep. 2026</p>
+            </div>
+            <p class="entry-detail">Independent student project · Java 17, Swing</p>
+            <ul class="entry-list">
+              <li>Built a turn-based multiplayer game with an interactive map and lobby in Java Swing.</li>
+              <li>Implemented client–server communication with separate TCP reader and writer threads and UDP heartbeats to monitor connections.</li>
+              <li>Synchronized player turns and broadcast game-state updates from the server to connected clients.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="cv-section" aria-labelledby="teaching">
+        <h2 id="teaching">Teaching experience</h2>
+        <div class="cv-content">
+          <div class="entry-heading">
+            <h3>Teaching Assistant, Foundations of Mathematics</h3>
+            <p class="entry-date">Fall 2026–Present</p>
+          </div>
+          <p class="entry-detail">Sharif University of Technology</p>
+          <p>Help design problem sets, prepare solutions, grade assignments, and answer students' questions.</p>
+        </div>
+      </section>
+
+      <section class="cv-section" aria-labelledby="skills">
+        <h2 id="skills">Technical skills</h2>
+        <div class="cv-content">
+          <dl class="skills">
+            <dt>Programming</dt>
+            <dd>Python, Java, C++</dd>
+            <dt>Data analysis &amp; visualization</dt>
+            <dd>NumPy, pandas, Matplotlib, seaborn</dd>
+            <dt>Tools</dt>
+            <dd>LaTeX, Jupyter Notebook</dd>
+          </dl>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
